@@ -8,7 +8,7 @@ const formEl = document.getElementById('form');
 const inputEl = document.getElementById('input');
 const scoreEl = document.getElementById('score');
 
-
+// get score from local storage 
 let score = JSON.parse(localStorage.getItem("score"));
 if(!score){
     score = 0;
